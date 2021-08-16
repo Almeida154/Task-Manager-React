@@ -12,3 +12,7 @@
     cursor: pointer;
     border: none;
 }
+
+.button.full-radius {
+    border-radius: 5px;
+}

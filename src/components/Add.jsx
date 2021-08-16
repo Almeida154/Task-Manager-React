@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
-import '../css/Add.css'
+
 import Button from './Button';
+
+import '../css/Add.css'
 
 const Add = ({ taskAddition }) => {
     const [data, setData] = useState('');
@@ -18,12 +20,12 @@ const Add = ({ taskAddition }) => {
         <div className="add-container">
             <input
                 className="add-input"
-                onChange={ handleInput }
-                value={ data }
+                onChange={handleInput}
+                value={data}
                 type="text"
                 placeholder="Digite aqui" />
             <div className="add-button-container">
-                <Button onClick={ handleAddTask }>Adicionar</Button>
+                <Button onClick={handleAddTask}>Adicionar</Button>
             </div>
         </div>
     );

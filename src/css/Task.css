@@ -24,13 +24,28 @@
 .task-content {
     padding: 12px;
     font-size: 1.225rem;
-    display: flex;
     flex: 1;
-    justify-content: space-between;
+}
+
+.task-button-container {
+    padding: 12px;
+    min-width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .remove-task-button {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
     border: none;
-    font-size: 1rem;
-    color: #1A751B;
+    font-size: 1.5rem;
+    color: #cecece;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.remove-task-button:hover {
+    color: #adadad;
 }
